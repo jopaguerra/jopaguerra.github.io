@@ -1,0 +1,17 @@
+.title{ 
+    text-align: center
+};
+
+.list {
+    text-align: center;
+    align-items: center
+};
+
+body {
+    background-image: url(images/light_background.jpg);
+};
+
+img {
+    width: 50px;
+    border-radius: 10px;
+}
