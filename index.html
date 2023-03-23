@@ -4,37 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-
     <title>Portfólio - João Paulo Guerra</title>
-    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
+    @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+    </style>
 </head>
 
 <body>  
-        <h1 class="title">Portfólio<br>do<br>João Paulo F.Guerra</h1> 
-<br>
-    <p> <!--Criando o paragrafo "indice" da página-->
-        <p id="indice" class="title"><font size="20px">Índice</font></p> 
-        <ol class="list"><!--Criando lista ordenada, com ancoragem para ID-->
-        <li><a href="#imagem-perfil">Perfil</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#artigos">Artigos que eu indico!</a></li>
-        <li><a href="https://github.com/jopaguerra?tab=repositories" target="_blank">Meu GitHub</a></li>
-        </ol><!--Fim da lista-->
-    </p>
-<br>
-    <p class="profile">
-        <!--Paragrafo de apresentação pessoal-->
-        <h3>Está é a primeira página HTML desenvolvida por: <b><a href="https://github.com/jopaguerra">@jopaguerra</a></b> durante o módulo: <u>HTML e CSS</u> do curso Trybe.</h3>
-        <img id="imagem-perfil" alt="Foto de perfil do usuario GitHub @jopaguerra" width="300px" src="/images/profile.jpeg">
-        <h5>João Paulo Ferreira Guerra, 28 anos de idade, natural do Rio Grande do Norte, estudante de desenvolvimento de software pela <a href="https://www.betrybe.com/">@Trybe</a>.</h5>
-        <h6>(<i>João Paulo Ferreira Guerra, 28 years old, born in Rio Grande do Norte, software development student at <a href="https://www.betrybe.com/">@Trybe</a>.</i>)</h6>
-    </p>
-<br>
-    <p><!--Paragrafo de habilidades-->
-            <p id="habilidades" class="title"> <font size= "15px">Minhas habilidades: </font></p><br>     
-            <ul class="list"> <!--Criando lista (não-ordenada) de habilidades-->
+    <h1>Portfólio<br>do<br>João Paulo F.Guerra</h1> 
+
+        <div class="container" id="index-page">   
+            <p id="indice" class="title">Índice</p> 
+            <ol class="list">
+                <!--Criando lista ordenada, com ancoragem para ID-->
+            <li><a href="#imagem-perfil">Perfil</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#artigos">Artigos que eu indico!</a></li>
+            <li><a href="https://github.com/jopaguerra?tab=repositories" target="_blank">Meu GitHub</a></li>
+                <!--Fim da lista-->
+            </ol>
+            <br>
+        </div> 
+
+        <div class="container" id="personal-presentation">        
+            <img id="imagem-perfil" alt="Foto de perfil do usuario GitHub @jopaguerra" width="300px" src="/images/profile.jpeg">
+            <h5>João Paulo Ferreira Guerra, 28 anos de idade, natural do Rio Grande do Norte, estudante de desenvolvimento de software pela <a href="https://www.betrybe.com/">@Trybe</a>.</h5>
+            <h6>(<i>João Paulo Ferreira Guerra, 28 years old, born in Rio Grande do Norte, software development student at <a href="https://www.betrybe.com/">@Trybe</a>.</i>)</h6>
+            <br>
+        </div>
+
+        <div class="container" id="skills">
+            <p id="habilidades" class="title">Minhas habilidades: </font></p><br>     
+            <ul class="list"> 
+            <!--Criando lista (não-ordenada) de habilidades-->
             <li>Excel</li>
             <li>PowerPoint</li>
             <li>Git</li>
@@ -45,22 +48,20 @@
             <li>Trocar lâmpadas e substituir tomadas/interruptores </li>
             <li>Fazer um Café levanta defunto</li>
             <li>Passear com Pet's</li>
-            </ul> <!--Fim da lista-->    
-    </p>
-<br>
-    <p><!--Paragrafo de artigos e indicações-->
-            <p id="artigos" class="title"><font size= "15px">Artigos que eu indico!</font></h>
+            <!--Fim da lista-->
+            </ul> 
+            <br>    
+        </div>
+
+        <div class="container" id="indications">   
+            <p id="myIndications" class="title">Artigos que eu indico!</p>
             <ul class="list"><!--Criando lista (não-ordenada) de habilidades-->
             <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">Resources for Developers, by Developers.</a></li>
             <li><a href="https://petcomputacaoufrgs.github.io/intro-ao-git/o-que-eh.html" target="_blank">Introdução ao Git</a></li>
             <li><a href="https://pages.github.com/">Documentação GitHub</a></li>
             </ul><!--Fim da lista--> 
-    </p> 
-<br>   
+            <br> 
+        </div>   
+<footer id="footer">Desenvolvido por: João Paulo Ferreira Guerra <a href="https://github.com/jopaguerra?tab=repositories" target="_blank">(@jopaguerra)</a></footer>
 </body>
-
-<footer class="title" >
-Código HTML desenvolvido por: João Paulo Ferreira Guerra (@jopaguerra)
-</footer>
-
 </html>

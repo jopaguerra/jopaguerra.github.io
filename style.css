@@ -1,17 +1,32 @@
-.title{ 
-    text-align: center
-};
-
-.list {
-    text-align: center;
-    align-items: center
-};
-
 body {
     background-image: url(images/light_background.jpg);
-};
+    background-size: cover;
+    text-align: center;
+    font: normal 16px Arial, Verdana, Serif;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+}
+
+#index-page {
+    text-align: left;
+}
 
 img {
-    width: 50px;
-    border-radius: 10px;
+    border-radius: 50%;
+    border-color: aquamarine, 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.list{
+    text-align: left;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
 }
