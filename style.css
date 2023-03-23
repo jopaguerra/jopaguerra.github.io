@@ -1,17 +1,19 @@
-.title{ 
-    text-align: center
-};
-
-.list {
-    text-align: center;
-    align-items: center
-};
-
 body {
     background-image: url(images/light_background.jpg);
-};
+    background-size: cover;
+    text-align: center;
+    font: normal 16px Arial, Verdana, Serif;
+}
 
-img {
-    width: 50px;
-    border-radius: 10px;
+#index-page {
+text-align: left;
+}
+
+.title {
+    text-align: center;
+    font-size: 25px;
+}
+
+.list{
+    text-align: left;
 }
