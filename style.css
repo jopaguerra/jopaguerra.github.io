@@ -5,15 +5,28 @@ body {
     font: normal 16px Arial, Verdana, Serif;
 }
 
+h1{
+    font-family: 'Pacifico', cursive;
+}
+
 #index-page {
-text-align: left;
+    text-align: left;
+}
+
+img {
+    border-radius: 50%;
+    border-color: aquamarine, 10px;
 }
 
 .title {
     text-align: center;
     font-size: 25px;
+    font-family: 'Pacifico', cursive;
+
 }
 
 .list{
     text-align: left;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
 }
