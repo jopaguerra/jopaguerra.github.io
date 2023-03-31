@@ -1,12 +1,13 @@
 body {
-    background-image: url(images/light_background.jpg);
-    background-size: cover;
-    text-align: center;
-    font: normal 16px Arial, Verdana, Serif;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,255,255,1) 100%);
+  background-size: cover;
+  text-align: center;
+  font-family: normal 16px   'Alkatra', cursive;
 }
 
 h1{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Alkatra', cursive;
 }
 
 #index-page {
