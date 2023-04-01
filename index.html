@@ -11,31 +11,37 @@
     </style>
 </head>
 
-<body>  
+<header>
     <h1>
-    Portfólio<br>do<br>João Paulo F.Guerra
+    Portfólio do <br>João Paulo F.Guerra
     </h1> 
+</header>
 
-      <section id="index-page">  
-        <div class="container">   
-            <p id="indice" class="title">Índice</p> 
-            <ol class="list">
+<body>  
+      <aside id="index-page">  
+        <div class="icon-menu" onclick="abrirMenu()">
+            <img src="images/cardapio.png">
+        </div>
+        <div class="container" id="menu-lateral">   
+             
+            <ul class="list">
+            <h1><em>Menu</em></h1>
                 <!--Criando lista ordenada, com ancoragem para ID-->
             <li><a href="#imagem-perfil">Perfil</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#myIndications">Links indicados:</a></li>
+            <li><a href="#myIndications">Links indicados</a></li>
             <li><a href="https://github.com/jopaguerra?tab=repositories" target="_blank">Meu GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/jopaguerra/" target="_blank">Meu Linkedin</a></li>
                 <!--Fim da lista-->
-            </ol>
+            </ul>
             <br>
         </div> 
-      </section>  
+      </aside>  
       <section id="personal-presentation">
         <div class="container">        
             <img id="imagem-perfil" alt="Foto de perfil do usuario GitHub @jopaguerra" width="300px" src="/images/profile.jpeg">
-            <h5>João Paulo Ferreira Guerra, 28 anos de idade, natural do Rio Grande do Norte, estudante de desenvolvimento de software pela <a href="https://www.betrybe.com/">@Trybe</a>.</h5>
-            <h6>(<i>João Paulo Ferreira Guerra, 28 years old, born in Rio Grande do Norte, software development student at <a href="https://www.betrybe.com/">@Trybe</a>.</i>)</h6>
+            <p>João Paulo Ferreira Guerra, 28 anos de idade, natural do Rio Grande do Norte, estudante de desenvolvimento de software pela <a href="https://www.betrybe.com/">@Trybe</a>.</p>
+            <p>(<i>João Paulo Ferreira Guerra, 28 years old, born in Rio Grande do Norte, software development student at <a href="https://www.betrybe.com/">@Trybe</a>.</i>)</p>
             <br>
         </div>
       </section>
@@ -74,9 +80,10 @@
                 </ul><!--Fim da lista--> 
                 <br> 
             </div>   
-      </section>  
+      </section> 
 <footer id="footer">
 Desenvolvido por: João Paulo Ferreira Guerra <a href="https://github.com/jopaguerra?tab=repositories" target="_blank">(@jopaguerra)</a>
 </footer>
+<script  src="script.js"></script>
 </body>
 </html>
