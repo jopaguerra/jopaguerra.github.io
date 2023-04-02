@@ -69,3 +69,27 @@ section#personal-presentation img{
 section#personal-presentation p{
     padding-top: 15px;
 }
+
+section#my-lists div ul{
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+    list-style: none;
+    padding-bottom: 25%;
+}
+
+div ul.list#skills{
+    text-align: center;
+    height: auto;
+    line-height: 35px;
+    width: auto;
+    padding-left: 200px;
+    padding-right: 50px;
+    margin-right: 100px;
+}
+
+div ul.list#indications{
+    height: auto;
+    line-height: 25px;
+    width: auto;
+}
