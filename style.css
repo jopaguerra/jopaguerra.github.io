@@ -1,16 +1,15 @@
 header {
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 125px;
+  height: auto;
+  text-align: center;
 } 
-
-header h1 {
-    text-align: center;
-    color: aliceblue;
-    font-family: normal 16px   'Alkatra', cursive;
-}
+header img{
+    margin-top: 15px;
+    height: 100px;
+    width: 200px;
+  } 
 
 body {
   margin: 0;
@@ -36,10 +35,11 @@ aside {
 
 #menu-lateral{
   height:auto;
-  width: 180px; 
+  width: 0px; 
   border-radius: 25%;
   margin-left: 5px;
   margin-top: auto;
+  display: none;
 }
 
 #menu-lateral ul li{
@@ -55,6 +55,8 @@ aside {
 
 section#personal-presentation{
     text-align: center;
+    width: auto;
+    height: auto;
 }
 
 section#personal-presentation img{
@@ -62,4 +64,8 @@ section#personal-presentation img{
     border-radius: 45%;
     width: 200px;
     height: 200px;
+}
+
+section#personal-presentation p{
+    padding-top: 15px;
 }
