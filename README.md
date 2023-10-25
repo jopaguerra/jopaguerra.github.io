@@ -1,7 +1,6 @@
 # jopaguerra.github.io
 
-Meu portfólio
-# Bem-Vindo ao Novo Meu Portfolio!
+# Bem-Vindo ao Meu Portfolio!
 
 Olá a todos,
 
